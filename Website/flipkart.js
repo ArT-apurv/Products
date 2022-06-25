@@ -8,18 +8,8 @@ const {
   Link,
 } = require("../Xpaths/flipkartXpaths");
 
-const productFunction = async (searchParameter) => {
-  var searchItem = searchParameter.split(" ");
-  if (searchItem[0]) {
-    var finalUrlString = searchItem[0];
-  }
-
-  for (let i = 1; i < searchItem.length; i++) {
-    if (searchItem[i] != "") {
-      finalUrlString += "%20" + searchItem[i];
-    }
-  }
-  const URL = `https://www.flipkart.com/search?q=${finalUrlString}`;
+const productFunction = async () => {
+  const URL = `https://www.flipkart.com/search?q=${Search}`;
   const browser = await puppeteer.launch({
     headless: false,
     ignoreHTTPSErrors: true,
