@@ -7,7 +7,9 @@ export const Card = ({ image, name, price, desc, link }) => {
       <p>{name}</p>
       <p>₹ {price}</p>
       <p>{desc}</p>
-      <a href={link}>CLick here to checkout the product</a>
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        Click here to checkout the product
+      </a>
     </div>
   );
 };
