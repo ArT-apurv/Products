@@ -3,9 +3,6 @@
   padding: 0;
   height: 100%;
   width: 100%;
-  /* height: fit-content;
-  position: absolute;
-  width: fit-content; */
 }
 
 .logo-container {
@@ -61,24 +58,6 @@
   text-align: center;
   color: #e85a4f;
 }
-
-/* .seperator {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  width: 541px;
-  height: 0px;
-  left: 449px;
-  top: 602.5px;
-
-  border: 3px solid #e98074;
-  transform: rotate(90deg);
-  border-left: 3px solid #e98074;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  top: 602.5px;
-} */
 
 .Amazon-heading {
   margin: 0 auto;
@@ -200,4 +179,19 @@
   width: 100vw;
   top: 7600.66px;
   left: 0;
+}
+
+.buttonLoad {
+  background-color: #e98074;
+  border: none;
+  color: white;
+  font-size: 30px;
+  width: 244px;
+  height: 54px;
+  border-radius: 0px 10px 10px 0px;
+  line-height: 26px;
+}
+
+.buttonLoad:hover {
+  background-color: #e85a4f;
 }

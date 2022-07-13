@@ -13,8 +13,12 @@ export const Card = ({ image, name, desc, price, link, company, index }) => {
       <div className={`name-${company}`}>{name}</div>
       <div className={`desc-${company}`}>{desc}</div>
       <p className={`price-${company}`}>₹ {price}</p>
-
-      <a className={`link-container-${company}`} href={link}>
+      <a
+        className={`link-container-${company}`}
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Checkout the product
       </a>
     </div>

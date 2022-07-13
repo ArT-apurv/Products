@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { IoArrowUpCircleSharp, IoArrowDownCircle } from "react-icons/io5";
+// import { ImSpinner } from "react-icons/im";
 import { useProductContext } from "../context/ProductContext";
 import { Card } from "../components/Card";
 import "../styles/Search.css";
@@ -12,6 +13,7 @@ export const SearchPage = () => {
   const [finalProductsF, setFinalProductsF] = useState([]);
   const [finalProductsA, setFinalProductsA] = useState([]);
   const [searchParam, setSearchParam] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setSearchParam(e.target.value);
@@ -28,13 +30,16 @@ export const SearchPage = () => {
   }, []);
 
   const handleSubmit = async (e) => {
+    setLoading(true);
     e.preventDefault();
+
     const { flipkartArrayResponse, amazonArrayResponse } = await getProducts(
       searchParam
     );
 
     setFinalProductsF([...flipkartArrayResponse]);
     setFinalProductsA([...amazonArrayResponse]);
+    setLoading(false);
   };
   return (
     <div className="search-page-container">
@@ -53,7 +58,7 @@ export const SearchPage = () => {
         autoComplete="off"
       />
       <button className="btn-submit" type="button" onClick={handleSubmit}>
-        Search
+        {!loading ? "Search" : "Loading..."}
       </button>
       <button className="btn-sort" onClick={getSortedProducts}>
         Sort

@@ -65,7 +65,6 @@ const ProductProvider = ({ children }) => {
   const getProducts = async (searchParam) => {
     try {
       const response = await axios.get(`/${searchParam}`);
-      // console.log(response);
       const { flipkart } = response.data.productFlipkart;
       const { amazon } = response.data.productAmazon;
 
@@ -106,8 +105,6 @@ const ProductProvider = ({ children }) => {
 
   // SET SORT ORDER
   const setSortOrder = () => {
-    // console.log(state.amazonProducts, state.flipkartProducts);
-    // dispatch({ type: SET_SORT });
     sort(state.nextSortOrder);
     dispatch({
       type: GET_SORTED_PRODUCTS,

@@ -45,7 +45,7 @@
   max-width: 244px;
   max-height: 36px;
   left: 32px;
-  top: 24vh;
+  top: 17.5vh;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -155,7 +155,7 @@
   max-width: 244px;
   max-height: 36px;
   left: 32px;
-  top: 17.5vh;
+  top: 24vh;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -175,7 +175,6 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  /* font-size: 25.5vw; */
   font-size: 18px;
   line-height: 26px;
   overflow-y: scroll;
