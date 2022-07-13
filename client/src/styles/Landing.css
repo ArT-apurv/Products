@@ -1,0 +1,152 @@
+.landing-main-container {
+  margin: 0;
+  padding: 0;
+  /* grid-template-columns: auto auto;
+  margin-left: 147px;
+  margin-right: 121px; */
+  /* height: 100vh; */
+}
+
+.desc-container-upper {
+  position: absolute;
+  width: 527px;
+  height: 320px;
+  /* left: 147px;
+  top: 254px; */
+  left: 7.5vw;
+  top: 22vh;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #1a1a1d;
+}
+
+.desc-container-lower {
+  position: absolute;
+  width: 523px;
+  height: 173px;
+  /* left: 151px;
+  top: 581px; */
+  left: 7.5vw;
+  top: 56vh;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #1a1a1d;
+}
+
+.desc-container > p {
+  color: black;
+  font-size: 40px;
+}
+
+.main-heading {
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--heading);
+}
+
+.sub-heading {
+  color: var(--heading);
+  font-size: 50px;
+}
+
+.logo-large-container {
+  position: absolute;
+  height: 548px;
+  width: 489px;
+  /* left: 830px;
+  top: 238px; */
+  left: 55vw;
+  top: 17vh;
+  border-radius: 0px;
+}
+
+.footer {
+  position: absolute;
+  width: 240px;
+  height: 60px;
+  /* left: 1098px;
+  top: 873px; */
+  left: 78vw;
+  top: 90vh;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #bebcb0;
+}
+
+.github-icon {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  /* left: 147px;
+  top: 883px; */
+  left: 8vw;
+  top: 88vh;
+  border-radius: 0px;
+
+  background-image: url("../assets/icons/github.svg");
+}
+
+.search-page {
+  position: absolute;
+  width: 170px;
+  height: 50px;
+  left: 80vw;
+  top: 10vh;
+  background: #e85a4f;
+  border-radius: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  color: #eae7dc;
+}
+
+.logo-container {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  left: 100vw;
+  top: 7vh !important;
+}
+
+.heading-text {
+  position: absolute;
+  width: 168px;
+  height: 53px;
+  left: 7vw !important;
+  top: 2.5vh !important;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #e85a4f;
+}
+
+a {
+  color: #e98074;
+}

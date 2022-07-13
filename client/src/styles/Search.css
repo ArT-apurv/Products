@@ -1,0 +1,203 @@
+.search-page-container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  /* height: fit-content;
+  position: absolute;
+  width: fit-content; */
+}
+
+.logo-container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 101px;
+  height: 97px;
+  left: 10vw;
+  background-image: url("../assets/logos/WebLogo.svg");
+}
+
+.heading-text {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 168px;
+  height: 53px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #e85a4f;
+}
+
+.home-logo {
+  position: absolute;
+  height: 42px;
+  width: 42px;
+  left: 85vw;
+  top: 10vh;
+  background-image: url("../assets/icons/home.svg");
+  background-size: contain;
+}
+
+.Flipkart-heading {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  width: 387px;
+  height: 39px;
+  left: 16vw;
+  top: 38vh;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #e85a4f;
+}
+
+/* .seperator {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 541px;
+  height: 0px;
+  left: 449px;
+  top: 602.5px;
+
+  border: 3px solid #e98074;
+  transform: rotate(90deg);
+  border-left: 3px solid #e98074;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 602.5px;
+} */
+
+.Amazon-heading {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  width: 401px;
+  height: 39px;
+  left: 54vw;
+  top: 38vh;
+  font-family: "Lato";
+  font-weight: 450;
+  font-size: 40px;
+  text-align: center;
+  line-height: 48px;
+  color: #e85a4f;
+}
+
+.form-search-page {
+  box-sizing: border-box;
+  position: absolute;
+  width: 756px;
+  height: 54px;
+  left: 16.5vw;
+  top: 22.5vh;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  padding-left: 10px;
+  color: #686765;
+  background: #eae7dc;
+  border: 3px solid #e98074;
+  border-radius: 10px 0 0 10px;
+}
+
+.form-search-page::placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #bebcb0;
+}
+.form-search-page:focus {
+  outline: none;
+}
+
+.btn-submit {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  width: 244px;
+  height: 54px;
+  left: 65vw;
+  top: 22.5vh;
+  border: 0;
+  background: #e98074;
+  border-radius: 0px 10px 10px 0px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+  background-color: #e85a4f;
+}
+
+.btn-sort {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  left: 81.5vw;
+  top: 32vh;
+  border: 0;
+  border-radius: 12px;
+  background-color: #e98074;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.btn-sort:hover {
+  cursor: pointer;
+  background-color: #e85a4f;
+}
+
+.card {
+  border-right: 1px solid #000;
+  width: 300px;
+  height: 300px;
+}
+
+.product-card-container {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.margin {
+  background-color: #eae7dc;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  width: 100vw;
+  top: 7600.66px;
+  left: 0;
+}
